@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Sri Utipah Aulani</title>
+    <link rel="stylesheet" href="fitri.css">
+    <style>
+        /* Reset dan Font */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(180deg, #ff6f61, #3498db);
+            color: #2c3e50;
+        }
+        a {
+            text-decoration: none;
+            color: #3498db;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(90deg, #ff6f61, #3498db);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        /* Kontainer */
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Bagian Umum */
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            font-size: 1.8rem;
+            background: linear-gradient(90deg, #ff6f61, #3498db);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+            border-left: 5px solid #ff6f61;
+            padding-left: 10px;
+        }
+
+        /* Profil */
+        .profile {
+            text-align: center;
+        }
+        .profile img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 4px solid #ff6f61;
+        }
+        .profile h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .profile p {
+            font-size: 1.1rem;
+            color: #7f8c8d;
+        }
+
+        /* Keterampilan, Seminar/Sertifikat, Pendidikan */
+        .skills ul, .experience ul, .projects ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li, .experience ul li, .projects ul li {
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        .skills ul li::before, .experience ul li::before, .projects ul li::before {
+            content: "✔";
+            position: absolute;
+            left: 0;
+            color: #ff6f61;
+            font-size: 1.2rem;
+        }
+
+        /* Proyek */
+        .projects img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        /* Kontak */
+        .contact {
+            text-align: center;
+            padding: 30px 0;
+            background: linear-gradient(90deg, #3498db, #ff6f61);
+            color: white;
+            border-radius: 15px;
+        }
+        .contact p {
+            font-size: 1.1rem;
+        }
+        .contact a {
+            display: inline-block;
+            margin: 10px 10px;
+            padding: 10px 20px;
+            color: white;
+            background: linear-gradient(90deg, #ff6f61, #3498db);
+            border-radius: 5px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+        .contact a:hover {
+            background: linear-gradient(90deg, #3498db, #ff6f61);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: linear-gradient(90deg, #ff6f61, #3498db);
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Sri Utipah Aulani",
+          "url": "https://github.com/sriutifah",
+          "image": "images/foto_profil.jpg",
+          "jobTitle": "Mahasiswi Ilmu Komputer",
+          "worksFor": {
+            "@type": "EducationalOrganization",
+            "name": "Universitas Yatsi Madani"
+          },
+          "email": "mailto:sriutifahaulani61@gmail.com",
+          "telephone": "085882699896",
+          "sameAs": [
+            "https://github.com/sriutifah"
+          ]
+        }
+        </script>    
+</head>
+<body>
+    <header>
+        <h1>Sri Utipah Aulani</h1>
+        <p>Mahasiswi Ilmu Komputer dari Universitas Yatsi Madani</p>
+    </header>
+    <div class="container">
+        <!-- Profil -->
+        <div class="section profile">
+            <img src="images/foto_profil.jpg" alt="Foto Profil">
+            <h1>About me</h1>
+            <p>Hallo! Saya Sri Utipah Aulani saya Mahasiswi Ilmu Komputer di Universitas Yatsi Madani. Saya tertarik pada pengembangan aplikasi, teknologi web, dan pemograman. Saya berkomitmen untuk terus belajar dan berkontribusi dalam pengembangan teknologi di masa depan dan saya selalu bersemangat untuk belajar hal baru, terutama yang berkaitan dengan Teknologi.</p>
+        </div>
+
+        <!-- Keterampilan -->
+        <div class="section skills">
+            <h2>Keterampilan</h2>
+            <ul>
+                <li>Pengembangan Web: HTML, CSS, JavaScript</li>
+                <li>Bahasa Pemrograman: C++, Python</li>
+                <li>Database: MySQL, MongoDB</li>
+                <li>Microsoft Office: Excel, Word, Powerpoint</li>
+            </ul>
+        </div>
+
+        <!-- Seminar/Sertifikat -->
+        <div class="section certificates">
+            <h2>Seminar/Sertifikat</h2>
+            <ul>
+                <li><strong>LDKM (Latihan Dasar Kepemimpinan Mahasiswa)</strong> - Program ini mengajarkan saya berbagai keterampilan kepemimpinan, manajemen waktu, dan kolaborasi tim yang sangat berguna dalam dunia profesional, terutama di bidang pengembangan perangkat lunak.</li>
+                <img src="images/sertifikat.jpg" alt=" Foto sertifikat">
+            </ul>
+        </div>
+
+        <!-- Pendidikan -->
+        <div class="section education">
+            <h2>Pendidikan</h2>
+            <ul>
+                <li><strong>MI</strong> - Nurul Islam (2011-2017)</li>
+                <li><strong>MTs</strong> - Nurul Islam (2017-2020)</li>
+                <li><strong>SMA</strong> - Nurussa'adah Jurusan IPA, aktif dalam organisasi siswa (2020-2023)</li>
+                <li><strong>Mahasiswi</strong> - Universitas Yatsi Madani (2023-Sekarang)</li>
+            </ul>
+        </div>
+
+        <!-- Proyek -->
+        <div class="section projects">
+            <h2>Proyek</h2>
+            <ul>
+                <li><strong>Pengembangan Website Portofolio Pribadi:</strong> Merancang dan mengembangkan website pribadi untuk menampilkan karya dan keahlian, dengan fokus pada tampilan modern dan navigasi yang intuitif. </li>
+                <li><strong>Pemrograman dengan Python:</strong> Mengerjakan proyek berbasis Python yang mencakup pemecahan masalah, pengembangan algoritma, dan implementasi solusi yang efektif.</li>
+                <li><strong>Sistem Manajemen Basis Data dengan MySQL:</strong> Mengembangkan sistem manajemen basis data yang efesien menggunakan MySQL, termasuk desain database, pengelolaan data, dan optimalisasi performa.</li>
+            </ul>
+        </div>
+
+        <!-- Kontak -->
+        <div class="section contact">
+            <h2>Kontak</h2>
+            <p>Email: sriutifahaulani61@gmail.com</p>
+            <p>Telepon: +62 858 8269 9896</p>
+            <a href="https://github.com/sriutifah">GitHub</a>
+        </div>
+    <footer>
+        &copy; 2024 Sri Utipah Aulani. All rights reserved.
+    </footer>
+</body>
+</html>
